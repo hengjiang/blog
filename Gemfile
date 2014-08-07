@@ -41,3 +41,5 @@ gem 'redcarpet', '~> 2.1.1'
 gem 'nokogiri'
 #gem 'mysql', '~> 5.6.11'
 gem 'mysql2', '~> 0.3.16'
+gem 'pg'
+gem 'rails_12factor', group: :production

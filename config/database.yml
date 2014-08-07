@@ -5,13 +5,14 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: mysql2
+  adapter: postgresql
+  encoding: unicode
   pool: 5
-  timeout: 5000
-  username: root
-  password: root
-  host: localhost
-  database: blog_development
+  #timeout: 5000
+  #username: root
+  #password: root
+  #host: localhost
+  #database: blog_development
 
 development:
   <<: *default
