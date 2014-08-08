@@ -8,6 +8,7 @@
   deploy:
      provider: heroku
      api_key: "bb154dca-b45a-45b2-af19-cee3f62e244c"
+     app: "secret-journey-8114"
 
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
